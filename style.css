@@ -90,7 +90,7 @@ body{
 }
 .drop:nth-child(9) {
     bottom: 100px;
-    left: 220px;
+    left: 224px;
     transform: scale(0.35) translate(120px, -350px);
     border-radius: 76% 24% 58% 42% / 27% 50% 50% 73%;
 }
