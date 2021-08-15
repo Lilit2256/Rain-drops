@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(237, 238, 237);
+}
+.drops{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drop{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.05) 10px 10px 10px inset,
+                rgba(0, 0, 0, 0.1) 15px 25px 10px,
+                rgba(0, 0, 0, 0.05) 15px 20px 10px,
+                rgba(255, 255, 255, 0.9) -10px -10px 15px inset;
+    background: transparent;
+    border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+}
+.drop::before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 45px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 42% 58% 37% 63% / 40% 43% 57% 60%;
+}
+.drop::after{
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 75px;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 57% 43% 37% 63% / 48% 37% 63% 52%;
+}
+.drop:nth-child(2) {
+    top: 65px;
+    right: 235px;
+    transform: scale(0.5) translate(-200px, 180px);
+    border-radius: 64% 36% 42% 58% / 42% 37% 63% 58%;
+}
+ .drop:nth-child(3) {
+     left: 405px;
+     transform: scale(0.5) translate(280px, 10px);
+     border-radius: 49% 51% 42% 58% / 56% 47% 53% 44%;
+ }
+.drop:nth-child(4) {
+    top: 500px;
+    right: 1000px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 39% 61% 63% 37% / 77% 47% 53% 23%;
+}
+.drop:nth-child(5) {
+    bottom: 15px;
+    right: 230px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 39% 61% 63% 37% / 77% 47% 53% 23%;
+}
+.drop:nth-child(6) {
+    left: 880px;
+    top: 410px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 83% 17% 61% 39% / 53% 59% 41% 47%;
+}
+.drop:nth-child(7) {
+    bottom: 205px;
+    right: 620px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 21% 79% 61% 39% / 53% 59% 41% 47%;
+}
+.drop:nth-child(8) {
+    bottom: 271px;
+    left: 1075px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 32% 68% 13% 87% / 66% 76% 24% 34%;
+}
+.drop:nth-child(9) {
+    bottom: 100px;
+    left: 220px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 76% 24% 58% 42% / 27% 50% 50% 73%;
+}
+.drop:nth-child(10) {
+    right: 905px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 32% 68% 47% 53% / 27% 50% 50% 73%;
+}
+.drop:nth-child(11) {
+    top: 600px;
+    left: 10px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 32% 68% 64% 36% / 27% 50% 50% 73%;
+}
+.drop:nth-child(12) {
+    bottom: 305px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 84% 16% 78% 22% / 56% 8% 92% 44%;
+}
+.drop:nth-child(13) {
+    right: 1120px;
+    bottom: 285px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 53% 47% 50% 50% / 73% 50% 50% 27%;
+}
+.drop:nth-child(14) {
+    left: 863px;
+    bottom: 10px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 53% 47% 30% 70% / 73% 71% 29% 27%;
+}
+.drop:nth-child(15) {
+    left: 285px;
+    top: 305px;
+    transform: scale(0.35) translate(120px, -350px);
+    border-radius: 24% 76% 54% 46% / 73% 51% 49% 27%;
+}
